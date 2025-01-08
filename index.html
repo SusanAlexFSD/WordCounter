@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Word Counter</h1>
+    <p>Type your text in the box below to see a breakdown of words, characters, sentences, and more!</p>
+  </header>
+  <div class="container">
+    <textarea id="textInput" placeholder="Type your text here..."></textarea>
+    <div class="stats">
+      <div class="stat-box">
+        <h3>Words</h3>
+        <p id="wordCount">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>Characters</h3>
+        <p id="charCount">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>Characters (No Spaces)</h3>
+        <p id="charNoSpaceCount">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>Syllables</h3>
+        <p id="syllableCount">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>Sentences</h3>
+        <p id="sentenceCount">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>Paragraphs</h3>
+        <p id="paragraphCount">0</p>
+      </div>
+    </div>
+  </div>
+  <div class="keywords">
+    <h2>Top Keywords</h2>
+    <div class="keyword-container">
+      <div class="keyword-section">
+        <h3>1-Word Phrases</h3>
+        <ul id="oneWordKeywords"></ul>
+      </div>
+      <div class="keyword-section">
+        <h3>2-Word Phrases</h3>
+        <ul id="twoWordKeywords"></ul>
+      </div>
+      <div class="keyword-section">
+        <h3>3-Word Phrases</h3>
+        <ul id="threeWordKeywords"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

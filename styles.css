@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f5; /* Pastel background */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align header and paragraph */
+  }
+  
+  header {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  textarea {
+    flex: 1;
+    max-width: 45%;
+    height: 200px;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  
+  .stats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .stat-box {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .stat-box h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .stat-box p {
+    margin: 5px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+ 
+  .keywords {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .keywords h2 {
+    font-size: 28px;
+    color: #444;
+    text-align: center;
+  }
+
+  .keyword-container {
+    display: flex;
+    justify-content: space-around; /* Distribute sections evenly */
+    flex-wrap: wrap; /* Allow wrapping if screen size is small */
+    gap: 20px;
+  }
+  
+  .keyword-section {
+    flex: 1;
+    min-width: 200px; /* Ensure sections have a minimum size */
+    max-width: 300px; /* Optional: Limit maximum size */
+  }
+  
+  .keyword-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .keyword-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .keyword-section li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
